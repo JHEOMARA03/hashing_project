@@ -1,6 +1,5 @@
-from django.db import models
+# hashing_app/models.py
 
-# Create your models here.
 from django.db import models
 from django.utils import timezone
 import json

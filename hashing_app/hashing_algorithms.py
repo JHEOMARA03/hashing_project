@@ -281,4 +281,4 @@ class DoubleHashingHashTable(HashTable):
             elif slot.key_value == key:
                 return slot.actual_value
             self.probes_count += 1
-        return None 
+        return None
